@@ -1,0 +1,666 @@
+h1 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family: Akzidenzgrotesk, sans-serif;
+  color: #fff;
+  font-size: 5vw;
+  line-height: 5vw;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family: Akzidenzgrotesk, sans-serif;
+  color: #fff;
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: 700;
+}
+
+p {
+  display: inline-block;
+  margin-bottom: 10px;
+  font-family: 'Gt america mono', sans-serif;
+  color: #fff;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+a {
+  font-family: 'Gt america mono', sans-serif;
+  color: #fff;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.infos {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.body {
+  background-color: #000;
+}
+
+.box-infos {
+  position: relative;
+  width: 90%;
+  height: 90%;
+}
+
+.icon-brazil {
+  position: relative;
+  z-index: 4;
+  display: inline-block;
+  cursor: help;
+}
+
+.image {
+  display: inline-block;
+  width: 4vw;
+  margin-right: 15px;
+}
+
+.where {
+  display: inline-block;
+  opacity: 1;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+}
+
+.about {
+  width: 40%;
+  margin-top: 5%;
+}
+
+.tab-menu {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  display: inline-block;
+  width: 134px;
+  margin-right: 16px;
+}
+
+.tab-link {
+  display: block;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-left: 0px;
+  background-color: transparent;
+  font-family: 'Gt america mono', sans-serif;
+  color: #fff;
+  font-size: 12px;
+  cursor: e-resize;
+}
+
+.tab-link:hover {
+  color: #858585;
+}
+
+.tab-link.w--current {
+  background-color: transparent;
+  color: #fff;
+  font-style: normal;
+  text-decoration: none;
+  cursor: default;
+}
+
+.text-block {
+  display: block;
+}
+
+.tab-pane {
+  display: block;
+  width: 70%;
+  float: right;
+}
+
+.tabs-content {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  display: inline-block;
+  width: 104%;
+  margin-right: -47%;
+}
+
+.tab-pane-2 {
+  width: 119px;
+}
+
+.link {
+  display: block;
+  margin-bottom: 9px;
+}
+
+.link:hover {
+  color: #858585;
+}
+
+.link.linha {
+  border-bottom: 1px solid #fff;
+}
+
+.bottom-infos {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+}
+
+.reduce-space {
+  margin-left: -25px;
+}
+
+.heading {
+  margin-top: 0px;
+  margin-bottom: 1%;
+  font-size: 7vw;
+  line-height: 7vw;
+}
+
+.projects-box {
+  position: fixed;
+  top: 50%;
+  right: 3%;
+  z-index: 8;
+  overflow: scroll;
+  width: 45%;
+  height: 100vh;
+  padding-bottom: 10%;
+  background-color: transparent;
+  -webkit-transform: translate(0px, -50%) translate(70%, 0px);
+  -ms-transform: translate(0px, -50%) translate(70%, 0px);
+  transform: translate(0px, -50%) translate(70%, 0px);
+}
+
+.holder-projects {
+  width: 100%;
+  -webkit-column-count: 2;
+  column-count: 2;
+  -webkit-column-gap: 15px;
+  column-gap: 15px;
+}
+
+.projeto {
+  position: relative;
+  margin-bottom: 15px;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  -webkit-transition: opacity 200ms ease;
+  transition: opacity 200ms ease;
+}
+
+.projeto:hover {
+  -webkit-filter: none;
+  filter: none;
+}
+
+.foto {
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease;
+}
+
+.works-label {
+  margin-bottom: 0px;
+}
+
+.contact-description {
+  max-width: 250px;
+}
+
+.links {
+  position: absolute;
+  left: 0px;
+  top: -12%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 0px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+}
+
+.link-block {
+  width: 20%;
+  height: 20%;
+  margin-right: 2%;
+  margin-left: 2%;
+  background-color: #000;
+  opacity: 0;
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+  -webkit-transform: translate(0px, 10px);
+  -ms-transform: translate(0px, 10px);
+  transform: translate(0px, 10px);
+}
+
+.link-block:hover {
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+}
+
+.link-block._2 {
+  -webkit-transform: translate(0px, 15px) rotate(5deg);
+  -ms-transform: translate(0px, 15px) rotate(5deg);
+  transform: translate(0px, 15px) rotate(5deg);
+}
+
+.link-block.none {
+  display: none;
+  opacity: 1;
+}
+
+.image-icon {
+  padding: 17%;
+}
+
+.link-block-2 {
+  width: 20%;
+  height: 20%;
+  background-color: #000;
+  opacity: 0;
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+  -webkit-transform: translate(0px, 15px);
+  -ms-transform: translate(0px, 15px);
+  transform: translate(0px, 15px);
+}
+
+.link-block-2:hover {
+  -webkit-transform: translate(0px, -15px);
+  -ms-transform: translate(0px, -15px);
+  transform: translate(0px, -15px);
+}
+
+.link-block-2.none {
+  display: none;
+  opacity: 1;
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+}
+
+.infos-project {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  z-index: 999;
+  display: none;
+  width: 25%;
+  height: 45vh;
+  margin-top: 8%;
+  margin-left: 4%;
+}
+
+.description {
+  width: 80%;
+  margin-top: 15px;
+}
+
+.projeto1 {
+  display: none;
+  opacity: 1;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+}
+
+.heading-2 {
+  display: block;
+  margin-top: 0px;
+  font-size: 4vw;
+  line-height: 4.3vw;
+}
+
+.heading-2.note {
+  display: inline-block;
+  margin-bottom: -13px;
+  padding: 5px 10px;
+  background-color: #fff;
+  opacity: 0;
+  -webkit-transform: translate(0px, 11px);
+  -ms-transform: translate(0px, 11px);
+  transform: translate(0px, 11px);
+  font-family: 'Gt america mono', sans-serif;
+  color: #000;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.heading-2.note._2 {
+  opacity: 1;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+}
+
+.projeto2 {
+  display: none;
+  opacity: 0;
+}
+
+.projeto3 {
+  display: none;
+  opacity: 0;
+}
+
+.projeto4 {
+  display: none;
+  opacity: 0;
+}
+
+.projeto6 {
+  display: none;
+  opacity: 0;
+}
+.projeto7 {
+  display: none;
+  opacity: 0;
+}
+.projeto8 {
+  display: none;
+  opacity: 0;
+}
+
+.mobile-header {
+  display: none;
+}
+
+.header-bottom {
+  display: none;
+}
+
+.mobile--projects {
+  display: none;
+}
+
+.protecao {
+  display: none;
+}
+
+.projeto5 {
+  display: none;
+  opacity: 0;
+}
+
+.over-info {
+  display: none;
+}
+
+html.w-mod-js *[data-ix="load-down"] {
+  opacity: 0;
+  -webkit-transform: translate(0px, 100px);
+  -ms-transform: translate(0px, 100px);
+  transform: translate(0px, 100px);
+}
+
+html.w-mod-js *[data-ix="load-down-2"] {
+  opacity: 0;
+  -webkit-transform: translate(0px, 20px);
+  -ms-transform: translate(0px, 20px);
+  transform: translate(0px, 20px);
+}
+
+html.w-mod-js *[data-ix="load-down-3"] {
+  opacity: 0;
+  -webkit-transform: translate(0px, 26px);
+  -ms-transform: translate(0px, 26px);
+  transform: translate(0px, 26px);
+}
+
+html.w-mod-js *[data-ix="load-left"] {
+  -webkit-transform: translate(100%, 0%);
+  -ms-transform: translate(100%, 0%);
+  transform: translate(100%, 0%);
+}
+
+@media (max-width: 991px) {
+  .infos {
+    display: none;
+  }
+  .top-info.mobile {
+    position: fixed;
+    margin-top: 5%;
+    margin-left: 5%;
+  }
+  .where.top-mobile {
+    opacity: 1;
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
+  }
+  .about {
+    display: block;
+    width: 96%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .tab-menu {
+    position: static;
+    display: block;
+    margin-bottom: 10px;
+  }
+  .tabs-content {
+    position: relative;
+    left: 0px;
+    top: 0px;
+    right: auto;
+    width: 68%;
+  }
+  .link.linha {
+    max-width: 210px;
+  }
+  .projects-box {
+    display: none;
+  }
+  .infos-project {
+    display: none;
+  }
+  .mobile-header {
+    position: relative;
+    display: block;
+    width: 100vw;
+    height: 70vh;
+    padding-top: 5%;
+  }
+  .big-titulo {
+    margin-bottom: 0%;
+    font-family: Akzidenzgrotesk, sans-serif;
+    color: #fff;
+    font-size: 10vw;
+    line-height: 9.3vw;
+    text-transform: uppercase;
+  }
+  .header-bottom {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    z-index: 1;
+    display: block;
+    width: 80%;
+    margin-top: 5%;
+    margin-left: 5%;
+  }
+  .paragraph {
+    display: block;
+  }
+  .mobile--projects {
+    display: block;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .ptojeto-mobile {
+    display: block;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 57px;
+    padding-bottom: 36px;
+    border-bottom: 1px none #fff;
+  }
+  .imagem2 {
+    width: 100%;
+  }
+  .conteudo-projeto-mobile {
+    display: block;
+    width: 90%;
+    margin-top: -42px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .titleprojeto-mobile {
+    max-width: 314px;
+    margin-bottom: 10px;
+    font-family: Akzidenzgrotesk, sans-serif;
+    color: #fff;
+    font-size: 21px;
+    line-height: 22px;
+    text-transform: uppercase;
+  }
+  .mobile-paragraph {
+    display: block;
+    max-width: 440px;
+  }
+  .link-mobile {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+    margin-right: 11px;
+    background-color: #000;
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+  }
+  .link-mobile.none {
+    display: none;
+  }
+  .protecao {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    z-index: 0;
+    display: block;
+    width: 100%;
+    height: 30%;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#000), to(transparent));
+    background-image: linear-gradient(180deg, #000, transparent);
+  }
+  .over-info {
+    position: fixed;
+    z-index: 300;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: #000;
+    -webkit-transform: translate(0px, -100vh);
+    -ms-transform: translate(0px, -100vh);
+    transform: translate(0px, -100vh);
+  }
+  .tabs {
+    position: static;
+  }
+  .abou-title {
+    font-family: Akzidenzgrotesk, sans-serif;
+    font-size: 17px;
+    text-transform: uppercase;
+  }
+  .close {
+    position: absolute;
+    bottom: 5%;
+    width: 60px;
+    height: 60px;
+    background-image: url('../images/close.png');
+    background-position: 0px 0px;
+    background-size: cover;
+  }
+}
+
+@media (max-width: 767px) {
+  .about {
+    width: 74%;
+    -webkit-transform: translate(0px, 9%);
+    -ms-transform: translate(0px, 9%);
+    transform: translate(0px, 9%);
+  }
+  .paragraph {
+    margin-bottom: 0px;
+  }
+}
+
+@media (max-width: 479px) {
+  .tabs-content {
+    width: 100%;
+  }
+  .big-titulo {
+    font-size: 11.5vw;
+    line-height: 11.7vw;
+  }
+  .header-bottom {
+    width: 90%;
+  }
+  .close {
+    position: absolute;
+    left: 50%;
+    right: 0px;
+    bottom: 5%;
+    width: 60px;
+    height: 60px;
+    background-image: url('../images/close.png');
+    background-position: 0px 0px;
+    background-size: cover;
+    -webkit-transform: translate(-50%, 0px);
+    -ms-transform: translate(-50%, 0px);
+    transform: translate(-50%, 0px);
+  }
+}
+
+@font-face {
+  font-family: 'Akzidenzgrotesk';
+  src: url('../fonts/AkzidenzGrotesk-BoldExtended.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Gt america mono';
+  src: url('../fonts/GT-America-Mono-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
